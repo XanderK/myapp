@@ -1,3 +1,7 @@
+# По следующим параметрам rvm определят какое окружение использовать
+#ruby=ruby-2.4.1
+#ruby-gemset=rails-5.1.0
+
 source 'https://rubygems.org'
 
 git_source(:github) do |repo_name|
