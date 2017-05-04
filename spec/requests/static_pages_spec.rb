@@ -31,5 +31,5 @@ RSpec.describe "StaticPages", type: :request do
       expect(page).to have_content('About Us')
     end
   end
-  
+
 end
