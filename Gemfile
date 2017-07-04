@@ -13,7 +13,7 @@ ruby '2.4.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.0'
-
+gem 'foundation-rails'
 gem 'bootstrap-sass', '3.3.7'
 gem 'sprockets', '~> 3.0'
 
