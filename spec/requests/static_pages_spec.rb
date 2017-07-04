@@ -9,9 +9,9 @@ RSpec.describe "StaticPages", type: :request do
 #    end
 #  end
 
-  describe "GET /static_pages/home" do
+  describe "GET /home" do
     it "should have the content 'myapp'" do
-      visit '/static_pages/home'
+      visit '/home'
       expect(page).to have_content('myapp')
     end
   end
@@ -19,7 +19,7 @@ RSpec.describe "StaticPages", type: :request do
   describe "Help page" do
 
     it "should have the content 'Help'" do
-      visit '/static_pages/help'
+      visit '/help'
       expect(page).to have_content('Help')
     end
   end
@@ -27,7 +27,7 @@ RSpec.describe "StaticPages", type: :request do
   describe "About page" do
 
     it "should have the content 'About Us'" do
-      visit '/static_pages/about'
+      visit '/about'
       expect(page).to have_content('About Us')
     end
   end
